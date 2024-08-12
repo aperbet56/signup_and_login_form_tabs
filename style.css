@@ -126,4 +126,17 @@ form h2 {
     background-color: #e9f4ff;
     color: #4a9ff3;
 }
-  
+
+/**** Responsive design ****/ 
+
+@media screen and (max-width: 472px) {
+    .tab__header h2 {
+        font-size: 17px;
+    }
+
+    .form__input label, 
+    .form__input input, 
+    .form__input button {
+        font-size: 16px;
+    }
+}
