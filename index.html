@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Onglets du formulaire d'inscription et de connexion</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="tab__form">
+      <div class="tab__header">
+        <h2 class="active">Inscription</h2>
+        <h2>Connexion</h2>
+      </div>
+      <div class="tab__body">
+        <form class="signup active">
+          <h2>S'inscrire</h2>
+          <div class="form__input">
+            <label>Nom d'utilisateur</label>
+            <input type="text" placeholder="Nom d'utilisateur" />
+          </div>
+          <div class="form__input">
+            <label>Email</label>
+            <input type="email" placeholder="Adresse mail" />
+          </div>
+          <div class="form__input">
+            <label>Mot de passe</label>
+            <input type="password" placeholder="Mot de passe" />
+          </div>
+          <div class="form__input">
+            <button>S'inscrire</button>
+          </div>
+        </form>
+        <form class="login">
+          <h2>Se connecter</h2>
+          <div class="form__input">
+            <label>Nom d'utilisateur</label>
+            <input type="text" placeholder="Nom d'utilisateur" />
+          </div>
+          <div class="form__input">
+            <label>Mot de passe</label>
+            <input type="password" placeholder="Mot de passe" />
+          </div>
+          <div class="form__input">
+            <button>Se connecter</button>
+          </div>
+        </form>
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
