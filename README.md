@@ -1,5 +1,9 @@
 ## ONGLETS DU FORMULAIRE D'INSCRIPTION ET DE CONNEXION
 
+![Design preview for the project](./img/preview.png)
+
+![Design preview for the project](./img/preview-1.png)
+
 ## Le challenge
 
 Création de deux onglets : l'onglet Inscription et et l'onglet Connexion. L'utilisateur peut passer d'un onglet à l'autre et répondre au formulaire correspondant.
@@ -8,7 +12,7 @@ Création de deux onglets : l'onglet Inscription et et l'onglet Connexion. L'uti
 
 Lien vers le projet : https://aperbet56.github.io/signup_and_login_form_tabs/
 
-## Développez avec
+## Projet développé avec
 
 - Utilisation des balises sémantiques HTML5
 - CSS3
